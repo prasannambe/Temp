@@ -1,0 +1,226 @@
+﻿<html lang="en">
+
+<head>
+
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+ 
+<style>
+.container{
+	width : 100%;
+}
+
+
+.header-logo{
+	width:50px;
+}
+.img-rounded{
+	border-radius:50px;
+	padding:5px;
+	width:100px;
+	
+}
+
+@media screen and (Max-width: 500px) {
+	.header-right{
+		color: blue;
+		padding:30px;
+	
+		text-decoration: none;
+		font-size: 25px; 
+		font-weight: bold;
+		font-family:Arial;
+	
+	}
+}
+
+@media screen and (Min-width: 501px) {
+	.header-right{
+		color: blue;
+		padding:30px;
+		
+		text-decoration: none;
+		font-size: 30px; 
+		font-weight: bold;
+		font-family:Arial;
+	}
+}
+
+
+
+.header-row{
+	padding:0;
+    background-color: darkgrey;
+    height:100px;
+}
+
+.footer1{
+	padding:0;
+	background-color: darkgrey;
+    text-align: center;
+}
+
+.footer-icon{
+	padding:10px;
+
+}
+
+
+.navbar {
+     border-radius: 0;
+     margin-bottom:0;
+     border-0;
+}
+
+.jumbotron{
+     border-radius: 0;
+     margin-bottom:0;
+     border-0;
+}
+
+.myCarousel_section{
+	padding:0;
+	height:750px;
+}
+
+.myjumbotron{
+	padding:0;
+}
+
+</style>
+</head>
+<body>
+
+<div class ="container">
+	<header> 
+		<div class="row">
+			<div class="col-xs-12 header-row">
+			<div class="col-xs-4">
+				<img src="image\brands-logo.jpg" class="img-rounded" alt="brand logo"> 
+			</div>
+			<div class="header-right col-xs-8">Ultra Auto Mobiles</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="row">
+			<nav class="navbar navbar-inverse">
+			  <div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				  </button>
+			  </div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+				  <li class="active"><a href="#">Home</a></li>
+				  <li><a href="#">Services</a></li>
+				  <li><a href="#">Prices</a></li>
+				  <li><a href="#">Contact Us</a></li>
+				  
+				</ul>
+			  </div>
+			</nav>
+		</div>
+	</section>
+		
+	<section>
+		<div class="row">
+		
+				 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					<div class="item active">
+					  <img src="image\car_1.png" alt="Red_1" style="width:100%; ">
+					</div>
+
+					<div class="item">
+					  <img src="image\car_2.jpg" alt="Red_2" style="width:100%;">
+					</div>
+
+					<div class="item">
+					  <img src="image\car_3.jpg" alt="Red_3" style="width:100%;">
+					</div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+			
+				<div class="jumbotron">
+				
+				  <p>Our company was established in 2015. Over this time we have been working on our goal – 
+				  to help customers and suppliers in auto car spare parts sales and communication. 
+				  This advertising platform was created to make online shopping easier for both 
+				  automobile owners and parts dealers. </p>
+				  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+				</div>
+			
+		</div>	
+	</section>
+
+	<footer >
+		<div class="row footer1">
+			  <div class="col-xs-12 footer-icon">
+				<!-- Facebook -->
+				<a><i class="fa fa-facebook-square fa-2x"></i></a>
+				<!-- Twitter -->
+				<a class="tw-ic">
+				  <i class="fa fa-twitter-square fa-2x"> </i>
+				</a>
+				<!-- Google +-->
+				<a class="gplus-ic">
+				  <i class="fa fa-google-plus-square fa-2x"> </i>
+				</a>
+				<!--Linkedin -->
+				<a class="li-ic">
+				  <i class="fa fa-linkedin-square fa-2x "> </i>
+				</a>
+				<!--Instagram-->
+				<a class="ins-ic">
+				  <i class="fa fa-instagram-square fa-2x"> </i>
+				</a>
+			   
+			  </div>
+
+			<div class="col-xs-12"> <p> © 2018 Copyright: All Rights Reserved.</p>
+			</div>
+		 </div>
+       
+
+  
+      
+    
+
+  </footer>
+	
+
+
+
+</div>
+</body>
+</html>
